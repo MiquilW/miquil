@@ -11,6 +11,7 @@ export default function ProfilePic() {
         alt="Michael Welsome"
         priority={true}
       />
+      <div className='absolute top-40 font-extrabold left-1/2 mx-auto'>Michael Welsome</div>
     </section>
   )
 }
