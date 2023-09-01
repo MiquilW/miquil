@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+/** @type {import('tailwindcss').Config} */
 
 const config: Config = {
   content: [
@@ -8,6 +9,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            '--tw-prose-bullets': '#9A3B3B',
+            h1: {
+              fontWeight: '750',
+            },
+            strong: {
+              fontWeight: '750',
+            }
+          }
+        }
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -21,6 +35,8 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 export default config
