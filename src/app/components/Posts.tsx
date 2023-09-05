@@ -7,7 +7,7 @@ export default function Posts() {
 
   return (
     <section className='mt-6 mx-auto max-w-2xl'>
-      <ul className='w-full'>
+      <ul className='mx-5 w-full'>
         {posts.map(post => (
           <Item key={post.id} post={post} />
         ))}
