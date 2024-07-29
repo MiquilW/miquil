@@ -28,10 +28,11 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        'sunset1': '#9A3B3B',
-        'sunset2': '#C08261',
-        'sunset3': '#E2C799',
-        'sunset4': '#F2ECBE',
+        'sunset1': '#E3D8F1',
+        'sunset2': '#3D3B3C',
+        'sunset3': '#E3D8F1',
+        'sunset4': '#323031',
+        'sunset5': '#E3D8F1'
       }
     },
   },

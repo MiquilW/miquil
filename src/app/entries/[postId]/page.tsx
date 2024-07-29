@@ -45,15 +45,17 @@ export default async function Post({ params }: { params: { postId: string }}) {
   return (
     <main className='mx-auto prose prose-xl text-black'>
       <p className='mt-7'>
-          <Link href="/"><FaArrowLeft /></Link>
+        <Link href="/" className='text-sunset5/70 hover:text-sunset1 duration-300'>
+          <FaArrowLeft />
+        </Link>
       </p>
-      <h1 className='text-5xl mt-4 mb-0'>
+      <h1 className='text-5xl mt-4 mb-0 text-sunset5'>
         {title}
       </h1>
-      <p className='mt-0'>
+      <p className='mt-0 text-sunset5'>
         {newDate}
       </p>
-      <article>
+      <article className='text-sunset5'>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }}/>
       </article>
     </main>

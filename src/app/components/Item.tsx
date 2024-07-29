@@ -13,11 +13,13 @@ export default function Item({ post }: Props) {
 
   return (
     <li className='mt-4 text-2xl' key={id}>
-      <Link className='hover:bg-sunset2 duration-300 text-sw' href={`/entries/${id}`}>
-        {title}
-      </Link>
-      <br />
-      <p className='text-sm'>{newDate}</p>
+      <div className='bg-sunset4 p-3 rounded-xl w-1/2'>
+        <Link className='text-sunset5/90 hover:text-sunset5 duration-300' href={`/entries/${id}`}>
+          {title}
+        </Link>
+        <br />
+        <p className='text-sm text-sunset5/70'>{newDate}</p>
+      </div>
     </li>
   )
 }
