@@ -18,11 +18,11 @@ export default function SplitScreen() {
       <div className='mx-auto'>
         <h1 className='text-sunset5/70 mt-6 font-bold text-4xl grid place-content-center mb-0'>Blog</h1>
         <Posts />
-        <div className='mx-auto  grid place-content-center'>
+        {/* <div className='mx-auto grid place-content-center'>
           <Link className='text-sunset5/50 no-underline hover:text-sunset5 mt-4 font-bold duration-300' href='/projects'>
             View All
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )

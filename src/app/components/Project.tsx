@@ -9,15 +9,16 @@ function Project({ project }: Props) {
   const { id, name, image, github, web } = project
 
   return (
-    <li className='mt-4 text-2xl' key={id}>
+    <li className='mt-4' key={id}>
       <div className='bg-sunset4 p-3 rounded-xl w-1/2'>
-        <p className='text-sunset5/90 hover:text-sunset5 duration-300'>
+        <p className='text-sunset5/90 hover:text-sunset5 duration-300 text-2xl'>
           {name}
         </p>
-        <Link className='text-sunset5/90 hover:text-sunset5 duration-300' href={github} target="_blank">
-          Github
+        <Link className='text-sunset5/70 hover:text-sunset5 duration-300 text-s' href={github} target="_blank">
+          GitHub
         </Link>
-        <Link className='text-sunset5/90 hover:text-sunset5 duration-300' href={web} target="_blank">
+        <br/>
+        <Link className='text-sunset5/70 hover:text-sunset5 duration-300' href={web} target="_blank">
           Web-Playable
         </Link>
       </div>
