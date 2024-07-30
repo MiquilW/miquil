@@ -32,7 +32,8 @@ const config: Config = {
         'sunset2': '#3D3B3C',
         'sunset3': '#E3D8F1',
         'sunset4': '#323031',
-        'sunset5': '#E3D8F1'
+        'sunset5': '#E3D8F1',
+        'accent': '#E7909F',
       }
     },
   },

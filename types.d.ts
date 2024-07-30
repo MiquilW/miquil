@@ -5,6 +5,8 @@ type Project = {
   image: string,
   github: string,
   web: string,
+  alt: string,
+  tech: string,
 }
 
 type BlogPost = {

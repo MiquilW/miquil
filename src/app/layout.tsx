@@ -17,6 +17,9 @@ export default function RootLayout({
       <body className="bg-sunset2">
         <Navbar />
         {children}
+        <div className=''>
+          <footer className='text-sunset5 bottom-0 w-full pt-20 pb-2 text-xs text-center'>© 2024 Michael Welsome</footer>
+        </div>
       </body>
     </html>
   )
