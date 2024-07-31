@@ -32,7 +32,7 @@ function Project({ project }: Props) {
           GitHub
         </Link>
         <Link className='text-sunset5/70 hover:text-sunset5 duration-300 float-right' href={web} target="_blank">
-          Web-Playable
+          {web ? 'Web-Playable' : ""}
         </Link>
       </div>
     </li>
